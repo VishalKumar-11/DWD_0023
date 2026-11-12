@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11 - Accessibility</title>
+</head>
+<body>
+    <a href="www.example.com">Skip to main content</a><br>
+    <a href="www.example.com/help">Home Help</a>
+
+    <main id="main-content">
+        <h1>Accessible Page</h1>
+        <img
+            src="abes-logo.png" alt="ABES Logo" width="180" height="280">
+            <br><br><br>
+        <form role="search" aria-label="Website search">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="q">
+            <button type="submit" aria-label="Submit search">Search</button>
+        </form>
+        
+    </main>
+</body>
+</html>
